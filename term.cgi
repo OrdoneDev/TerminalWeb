@@ -4,7 +4,7 @@
 
 HELP="Bem vindo ao Terminal Remoto do Linux via browser\n
 Você poderá executar um comando por vez\n
-Não poderá ser feita a utilização de alguns operadores como o PIPE '|' e o operador diamente '>'\n
+Não poderá ser feita a utilização de alguns operadores como o PIPE '|' e o operador diamante '>'\n
 Se você souber solucionar está adversidade baixe o código no github\n
 https://github.com/TurkojanOwnz/TerminalWeb.git"
 COMMAND=`echo $QUERY_STRING | sed -e "s/^.*COMMAND=\([^&]*\)/\1/"`
